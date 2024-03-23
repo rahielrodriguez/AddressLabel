@@ -213,11 +213,11 @@ Partial Class AddressLabel
         'DisplayLabel
         '
         Me.DisplayLabel.AutoSize = True
-        Me.DisplayLabel.Location = New System.Drawing.Point(9, 25)
+        Me.DisplayLabel.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DisplayLabel.Location = New System.Drawing.Point(28, 29)
         Me.DisplayLabel.Name = "DisplayLabel"
-        Me.DisplayLabel.Size = New System.Drawing.Size(48, 16)
+        Me.DisplayLabel.Size = New System.Drawing.Size(0, 33)
         Me.DisplayLabel.TabIndex = 0
-        Me.DisplayLabel.Text = "Label1"
         Me.ContentToolTip.SetToolTip(Me.DisplayLabel, "This label is made to display the address content provided by the user in a certa" &
         "in format")
         '
