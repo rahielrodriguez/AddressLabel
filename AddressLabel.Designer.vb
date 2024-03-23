@@ -72,7 +72,7 @@ Partial Class AddressLabel
         Me.ZipTextBox.Location = New System.Drawing.Point(16, 285)
         Me.ZipTextBox.Name = "ZipTextBox"
         Me.ZipTextBox.Size = New System.Drawing.Size(93, 22)
-        Me.ZipTextBox.TabIndex = 6
+        Me.ZipTextBox.TabIndex = 5
         Me.ContentToolTip.SetToolTip(Me.ZipTextBox, "This text box is made to enter the user's zip code")
         '
         'ZipLabel
@@ -89,7 +89,7 @@ Partial Class AddressLabel
         Me.StateTextBox.Location = New System.Drawing.Point(16, 235)
         Me.StateTextBox.Name = "StateTextBox"
         Me.StateTextBox.Size = New System.Drawing.Size(93, 22)
-        Me.StateTextBox.TabIndex = 5
+        Me.StateTextBox.TabIndex = 4
         Me.ContentToolTip.SetToolTip(Me.StateTextBox, "This text box is made to enter the user's state of residence")
         '
         'StateLabel
@@ -106,7 +106,7 @@ Partial Class AddressLabel
         Me.CityTextBox.Location = New System.Drawing.Point(16, 187)
         Me.CityTextBox.Name = "CityTextBox"
         Me.CityTextBox.Size = New System.Drawing.Size(376, 22)
-        Me.CityTextBox.TabIndex = 4
+        Me.CityTextBox.TabIndex = 3
         Me.ContentToolTip.SetToolTip(Me.CityTextBox, "This text box is made to enter the user's city of residence")
         '
         'CityLabel
@@ -123,7 +123,7 @@ Partial Class AddressLabel
         Me.StreetAddressTextBox.Location = New System.Drawing.Point(16, 140)
         Me.StreetAddressTextBox.Name = "StreetAddressTextBox"
         Me.StreetAddressTextBox.Size = New System.Drawing.Size(376, 22)
-        Me.StreetAddressTextBox.TabIndex = 3
+        Me.StreetAddressTextBox.TabIndex = 2
         Me.ContentToolTip.SetToolTip(Me.StreetAddressTextBox, "This text box is made to enter the user's street address")
         '
         'StreetAddressLabel
@@ -140,7 +140,7 @@ Partial Class AddressLabel
         Me.LastNameTextBox.Location = New System.Drawing.Point(16, 93)
         Me.LastNameTextBox.Name = "LastNameTextBox"
         Me.LastNameTextBox.Size = New System.Drawing.Size(376, 22)
-        Me.LastNameTextBox.TabIndex = 2
+        Me.LastNameTextBox.TabIndex = 1
         Me.ContentToolTip.SetToolTip(Me.LastNameTextBox, "This text box is made to enter the user's last name")
         '
         'LastNameLabel
@@ -157,7 +157,7 @@ Partial Class AddressLabel
         Me.FirstNameTextBox.Location = New System.Drawing.Point(16, 46)
         Me.FirstNameTextBox.Name = "FirstNameTextBox"
         Me.FirstNameTextBox.Size = New System.Drawing.Size(376, 22)
-        Me.FirstNameTextBox.TabIndex = 1
+        Me.FirstNameTextBox.TabIndex = 0
         Me.ContentToolTip.SetToolTip(Me.FirstNameTextBox, "This text box is made to enter the user's first name")
         '
         'FirstNameLabel
@@ -174,7 +174,7 @@ Partial Class AddressLabel
         Me.DisplayButton.Location = New System.Drawing.Point(429, 258)
         Me.DisplayButton.Name = "DisplayButton"
         Me.DisplayButton.Size = New System.Drawing.Size(117, 82)
-        Me.DisplayButton.TabIndex = 7
+        Me.DisplayButton.TabIndex = 6
         Me.DisplayButton.Text = "Display Label"
         Me.ContentToolTip.SetToolTip(Me.DisplayButton, "This button is made to display the address content provided by the user in a cert" &
         "ain format in the Display Label")
@@ -185,7 +185,7 @@ Partial Class AddressLabel
         Me.ClearButton.Location = New System.Drawing.Point(562, 257)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(116, 82)
-        Me.ClearButton.TabIndex = 8
+        Me.ClearButton.TabIndex = 7
         Me.ClearButton.Text = "Clear"
         Me.ContentToolTip.SetToolTip(Me.ClearButton, "This button is made to clear the address content provided by the user")
         Me.ClearButton.UseVisualStyleBackColor = True
@@ -195,7 +195,7 @@ Partial Class AddressLabel
         Me.ExitButton.Location = New System.Drawing.Point(700, 257)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(116, 82)
-        Me.ExitButton.TabIndex = 9
+        Me.ExitButton.TabIndex = 8
         Me.ExitButton.Text = "Exit"
         Me.ContentToolTip.SetToolTip(Me.ExitButton, "This button is made to exit and close the program")
         Me.ExitButton.UseVisualStyleBackColor = True
@@ -223,7 +223,7 @@ Partial Class AddressLabel
         '
         'ContentToolTip
         '
-        Me.ContentToolTip.ToolTipTitle = "ContentToolTip"
+        Me.ContentToolTip.ToolTipTitle = "FunctionToolTip"
         '
         'AddressLabel
         '
