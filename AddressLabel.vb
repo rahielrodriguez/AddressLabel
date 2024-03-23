@@ -1,4 +1,10 @@
-﻿Option Strict On
+﻿'Rahiel Rodriguez
+'RCET 0265
+'Spring 2024
+'Address label program
+'https://github.com/rahielrodriguez/AddressLabel.git
+
+Option Strict On
 Option Explicit On
 Public Class AddressLabel
     Sub SetDefaults()
